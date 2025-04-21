@@ -19,13 +19,13 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 local Username = LocalPlayer.Name  
 
 -- // Show Notification on Script Load
-Library:Notify("Welcome Thank you for using [Bypassin] - " .. Username .. " 👏", 5)
+Library:Notify("Welcome Thank you for using [Doxxsploit] - " .. Username .. " 👏", 5)
 task.wait(1) 
 Library:Notify("Status: 🟢 Undetected (Safe from bans)", 5)
 
 -- // Create Main UI Window
 local Window = Library:CreateWindow({
-    Title = 'Bypassin | [Beta v1.0] | Premium Version',
+    Title = 'Doxxsploit | [Beta v1.0] | Premium Version',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -970,15 +970,15 @@ TargetBox:AddToggle('GotoToggle', {
                         -- Step 4: Deactivate Freefall after teleportation
                         getgenv().SwimMethod = false
 
-                        Library:Notify("[Bypassin] - Teleported to " .. SelectedPlayer.Name, 3)
+                        Library:Notify("[Doxxsploit] - Teleported to " .. SelectedPlayer.Name, 3)
                     else
-                        Library:Notify("[Bypassin] - Unable to teleport: character not found", 3)
+                        Library:Notify("[Doxxsploit] - Unable to teleport: character not found", 3)
                     end
                 else
-                    Library:Notify("[Bypassin] - Unable to teleport: target's character not found", 3)
+                    Library:Notify("[Doxxsploit] - Unable to teleport: target's character not found", 3)
                 end
             else
-                Library:Notify("[Bypassin] - No target selected to teleport to", 3)
+                Library:Notify("[Doxxsploit] - No target selected to teleport to", 3)
             end
 
             -- Turn off the teleport toggle after performing the action
@@ -2236,10 +2236,10 @@ end)
 local MenuGroup = Tabs['Settings']:AddLeftGroupbox('Menu')
 local MenuGroupRight = Tabs['Settings']:AddRightGroupbox('Server')  -- Changed to AddRightGroupbox
 
-local madeByLabel = MenuGroup:AddLabel('Made by: bypassinjayo')
+local madeByLabel = MenuGroup:AddLabel('Made by: swat4fun')
 
 MenuGroup:AddButton('Copy Discord', function() 
-    setclipboard('https://discord.gg/bypassin') -- Replace with your actual Discord link
+    setclipboard('https://discord.gg/UkdsA4df55') -- Replace with your actual Discord link
     Library:Notify("Discord link copied!", 3)
 end)
 
